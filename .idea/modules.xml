@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/character.nextjs.learning.keep.iml" filepath="$PROJECT_DIR$/.idea/character.nextjs.learning.keep.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/character.learning.frontend.keep.iml" filepath="$PROJECT_DIR$/.idea/character.learning.frontend.keep.iml" />
     </modules>
   </component>
 </project>

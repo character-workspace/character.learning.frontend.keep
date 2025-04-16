@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import './globals.css'
 import { ReactNode } from 'react'
+import Auth0Wrapper from '@/app/_components/auth0-wrapper'
 
 const metadata: Metadata = {
   title: 'Create Next App',
@@ -15,7 +16,7 @@ function RootLayout(prop: RootLayoutProp) {
   return (
     <html lang='en'>
       <body>
-        {prop.children}
+        <Auth0Wrapper>{prop.children}</Auth0Wrapper>
       </body>
     </html>
   )
